@@ -1,23 +1,22 @@
 export default function CourseCard() {
   return (
-    <div className="flex gap-16 my-8 text-white">
+    <div className="flex my-8 flex-col bg-white w-[400px] rounded-md border max-h-[460px] hover:shadow-2xl cursor-pointer transition">
       <img
         src="https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-09/cybersecurity.png"
-        className="w-[400px] h-[300px] rounded-sm"
+        className="w-[400px] h-[200px] rounded-sm rounded-tr-md rounded-tl-md "
       />
 
-      <div className="flex flex-col justify-between">
-        <div className="font-semibold text-[25px]">Cybersecurity</div>
-        <p className="w-[400px]">
-          In our increasingly connected world, cybersecurity is more than just a
-          buzzword—it's an essential skillset. Our Cybersecurity Essentials
-          course equips you with the knowledge and tools needed to navigate the
-          digital landscape safely.
-        </p>
-
-        <div className="bg-blue-400 rounded-sm p-4 text-center w-[200px] text-white cursor-pointer hover:shadow-blue-500 hover:transition-all hover:shadow-lg">
-          View Course
+      <div className="flex flex-col justify-between  p-4 gap-5">
+        <div>
+          <div className="font-semibold text-[25px]">Cybersecurity</div>
+          <div className="text-[14px]">
+            BTEC Level 3 National Extended Diploma
+          </div>
         </div>
+        <p className="">
+          In our increasingly connected world, cybersecurity is more than just a
+          buzzword—it's an essential skillset.
+        </p>
       </div>
     </div>
   );
