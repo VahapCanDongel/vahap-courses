@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body className="font-heebo">
+      <body className="font-heebo bg-zinc-100">
         <Navigation />
         {children}
       </body>
