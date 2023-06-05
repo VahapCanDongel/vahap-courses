@@ -2,8 +2,8 @@ export default function Navigation() {
   return (
     <div className="w-full h-[9vh] flex justify-evenly items-center p-4 bg-white sm:justify-between">
       <div>
-        <div className="text-[12px] text-right">Courses</div>
         <div className="font-bold text-[25px] ">Vahap Can Dongel</div>
+        <div className="text-[12px] text-left">Courses</div>
       </div>
 
       <div className="flex justify-center items-center gap-8 sm:hidden">
